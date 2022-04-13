@@ -1,0 +1,8 @@
+build
+composer.lock
+docs
+vendor
+nbproject
+.env
+.idea/
+tests/EndToEndTests.php

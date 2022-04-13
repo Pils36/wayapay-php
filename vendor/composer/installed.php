@@ -1,12 +1,14 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
-        'aliases' => array(),
-        'reference' => NULL,
-        'name' => 'pils36/express-payment-php',
+        'aliases' => array(
+            0 => '2.0.x-dev',
+        ),
+        'reference' => '813ac7797285a12fe871b885cbf7872d7cd0065e',
+        'name' => 'pils36/wayapay-php',
         'dev' => true,
     ),
     'versions' => array(
@@ -208,13 +210,15 @@
             'reference' => 'a23b761686d50a560cc56233b9ecf49597cc9118',
             'dev_requirement' => true,
         ),
-        'pils36/express-payment-php' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+        'pils36/wayapay-php' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'reference' => NULL,
+            'aliases' => array(
+                0 => '2.0.x-dev',
+            ),
+            'reference' => '813ac7797285a12fe871b885cbf7872d7cd0065e',
             'dev_requirement' => false,
         ),
         'psr/cache' => array(

@@ -12,19 +12,19 @@
         "verify",
         "curl"
     ],
-    "homepage": "https://github.com/pils36/wayapay-php",
+    "homepage": "https://github.com/Pils36/wayapay-php",
     "license": "MIT",
     "authors": [
         {
             "name": "Pils36",
             "email": "adenugaadebambo41@gmail.com",
-            "homepage": "https://github.com/pils36",
+            "homepage": "https://github.com/Pils36",
             "role": "Owner"
         },
         {
             "name": "Adebambo Adenuga",
             "email": "adenugaadebambo41@gmail.com",
-            "homepage": "https://github.com/pils36",
+            "homepage": "https://github.com/Pils36",
             "role": "Developer"
         }
     ],
