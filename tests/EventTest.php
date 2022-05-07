@@ -9,10 +9,12 @@ class EventTest extends \PHPUnit_Framework_TestCase
     public function testDiscoverOwner()
     {
         $evt = MockEvent::dummyCapture();
+
+
         $this->assertEquals('nameee', $evt->discoverOwner([
-            'notme'=>'WAYAPUBK_LIVE_inv4L1dinv4L1dinv4L1dinv4L1d',
-            'notmeeither'=>'WAYAPUBK_TEST_inv4L1dinv4L1dinv4L1d',
-            'nameee'=>'WAYAPUBK_TEST_inv4L1dinv4L1dinv4L1dinv4L1d',
+            'notme'=>'sk_live_inv4L1dinv4L1dinv4L1dinv4L1d',
+            'notmeeither'=>'sk_test_inv4L1dinv4L1dinv4L1d',
+            'nameee'=>'sk_test_inv4L1dinv4L1dinv4L1dinv4L1d',
         ]));
     }
 
@@ -48,6 +50,6 @@ class EventTest extends \PHPUnit_Framework_TestCase
     public function testValidFor()
     {
         $evt = MockEvent::dummyCapture();
-        $this->assertTrue($evt->validFor('WAYAPUBK_TEST_inv4L1dinv4L1dinv4L1dinv4L1d'));
+        $this->assertTrue($evt->validFor('sk_test_inv4L1dinv4L1dinv4L1dinv4L1d'));
     }
 }
